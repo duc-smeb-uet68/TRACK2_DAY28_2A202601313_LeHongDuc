@@ -64,7 +64,7 @@ Toàn bộ chuỗi xử lý từ lúc Client gửi yêu cầu cho đến khi nh�
 - **Delta Lake Table Version**:
   - Bảng `documents`: Version `8` (18 documents, schema v1)
   - Bảng `feedback`: Version `15` (26 feedback records, schema v1)
-- **MLflow Model Version**: `lab28-rag-release` phiên bản `v3` mang alias `champion`
+- **MLflow Model Version**: `lab28-rag-release` (phiên bản ổn định ban đầu `v3`, thăng hạng `v6` trong bài kiểm thử Journey 3 và rollback về `v3`, mang alias `champion` theo `evidence/ip06-mlflow-release.json`)
 - **Mô Hình vLLM Phục Vụ**: `Qwen/Qwen2.5-1.5B-Instruct` (vLLM Engine `0.26.0`, 111 metrics exposed)
 
 ### Danh Sách 11 Spans Bắt Buộc Được Xác Thực Trong Trace

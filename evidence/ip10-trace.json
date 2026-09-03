@@ -1,37 +1,41 @@
 {
-  "trace_id": "ab18da7584314ba2b8e801d89d91c501",
-  "traceparent": "00-ab18da7584314ba2b8e801d89d91c501-825e21aa23604053-01",
-  "dag_run_id": "it-da317952",
-  "span_count": 11,
+  "trace_id": "bc1ca2f452de435a9cdef804af3c24cc",
+  "traceparent": "00-bc1ca2f452de435a9cdef804af3c24cc-baeff2605d104f9f-01",
+  "dag_run_id": "it-f06c8688",
+  "span_count": 14,
   "span_names": [
+    "POST /api/v1/ask",
     "POST /api/v1/feedback",
-    "POST /api/v1/feedback http receive",
-    "POST /api/v1/feedback http send",
     "lab28.airflow.dag",
+    "lab28.api.ask",
     "lab28.api.ingest",
+    "lab28.feast.get_online_features",
     "lab28.gateway.request",
     "lab28.kafka.consume",
     "lab28.kafka.produce",
-    "lab28.spark.delta_merge"
+    "lab28.mlflow.resolve_release",
+    "lab28.qdrant.query",
+    "lab28.spark.delta_merge",
+    "lab28.vllm.chat_completion"
   ],
   "services": [
     "lab28-airflow",
     "lab28-api",
-    "lab28-gateway"
+    "lab28-gateway",
+    "lab28-platform"
   ],
   "required_spans_present": [
     "lab28.airflow.dag",
+    "lab28.api.ask",
     "lab28.api.ingest",
+    "lab28.feast.get_online_features",
     "lab28.gateway.request",
     "lab28.kafka.consume",
     "lab28.kafka.produce",
-    "lab28.spark.delta_merge"
-  ],
-  "required_spans_missing": [
-    "lab28.api.ask",
-    "lab28.feast.get_online_features",
     "lab28.mlflow.resolve_release",
     "lab28.qdrant.query",
+    "lab28.spark.delta_merge",
     "lab28.vllm.chat_completion"
-  ]
+  ],
+  "required_spans_missing": []
 }
