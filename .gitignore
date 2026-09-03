@@ -12,3 +12,4 @@ kaggle_vllm_server.ipynb
 *.jar
 
 AGENTS.md
+CLAUDE.md

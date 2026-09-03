@@ -5,13 +5,13 @@
   "requests_sent": 30,
   "accepted": 10,
   "rejected": 20,
-  "rate_limited_stat": 206.0,
+  "rate_limited_stat": 35.0,
   "sample_200": {
     "status": 200,
-    "x-request-id": "42a836f0-9095-9cf4-9171-0aa652be525c"
+    "x-request-id": "6b5505ca-c6b3-96a8-a5f9-b21c793bb8a6"
   },
   "sample_429": {
     "status": 429,
-    "x-request-id": "5c3a9ad8-c8c1-9a5b-8563-2d46088681a1"
+    "x-request-id": "c2143104-ea9a-9515-bfe0-d221511c113f"
   }
 }
